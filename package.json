@@ -4,14 +4,14 @@
   "description": "Creación de servidor web",
   "main": "index.js",
   "scripts": {
-    "start":"nodemon server.js",
+    "start":"node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "web",
     "server"
   ],
-  "author": "ESPE",
+  "author": "Brandon Pallo",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
