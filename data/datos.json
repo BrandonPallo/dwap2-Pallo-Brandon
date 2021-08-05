@@ -1,0 +1,18 @@
+[   {
+        "imagen":"https://images.stockx.com/images/Adidas-Yeezy-500-Utility-Black-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1606319127",
+        "nombre":"PRODUCTO 1",
+        "precio":"$50.00"
+    },{
+        "imagen":"https://i.ebayimg.com/thumbs/images/g/yKkAAOSwiK9f~sjO/s-l300.jpg",
+        "nombre":"PRODUCTO 2",
+        "precio":"$60.00"
+    },{
+        "imagen":"https://www.newbalance.com.ar/media/catalog/product/z/a/zapatillas-new-balance-574-hombre-sea-escape-ml574ylc_nb_02_i.jpeg",
+        "nombre":"PRODUCTO 3",
+        "precio":"$70.00"
+    },{
+        "imagen":"https://media.revistagq.com/photos/604a4b719fc97c95e82c1bb4/master/w_1600%2Cc_limit/unnamed.png",
+        "nombre":"PRODUCTO 4",
+        "precio":"$100.00"
+    }
+]

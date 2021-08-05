@@ -1,0 +1,274 @@
+
+body{
+    background: #2E4053;
+}
+
+.portada{
+    width: 100%;
+    height: 585px;
+    background-image: url("https://img.gta5-mods.com/q95/images/vlone-x-nike-air-force-1-high/dda019-IMG_0259.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 4em;
+    align-items: center;
+    background-attachment: fixed;
+    
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.portada h2{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    color: white ;
+    padding-top: 3em;
+    font-size: 35px;
+    
+}
+
+.portada h1{
+    font-family: 'Patrick Hand SC', cursive;
+    text-align: center;
+    font-size: 80px;
+    color: #58D68D;
+    -webkit-text-stroke: 0.5px black;
+}
+
+#explorar{
+    font-family: 'Indie Flower', cursive;
+    background: orangered;
+    
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1.5em;
+    
+    
+}
+
+#explorar:hover{
+    border-color: #2E4053 ;
+    background: #58D68D;
+    cursor: pointer;
+    box-shadow: 0 0.5em 0.5em -0.4em;
+}
+.borde1{
+    width: 100%;
+    height: 7px;
+    background: tomato;
+}
+.nosotros{
+    background: white  ;
+    display:flex;
+}
+.nosotros .imagen{
+    height: 18em;
+    margin:6em;
+    transition: width 1s, height 1s, transform 1s ;
+}
+.nosotros .imagen:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transform: scale(1.2);
+}
+.nosotros .nosotros-texto h2{
+    margin-top: 6em;    
+    color: #58D68D ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.nosotros .nosotros-texto h1{
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 30px;
+}
+#informacion{
+    background: #58D68D ;
+    font-family: 'Indie Flower', cursive;
+    color: black;
+    border: 2px solid;
+    padding: 0.5em 1em;
+    font-size: 1.5em;
+}
+#informacion:hover{
+    border-color: white ;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0.5em 0.5em -0.4em;
+}
+.productos{
+    display: flex;
+    
+}
+.productos .produc{
+    padding: 4em 2em;
+}
+
+.productos .pr1{
+    padding: 2em;
+    color:wheat;
+}
+
+.productos .pr2{
+    padding: 2em;
+    color:wheat;
+}
+
+.productos .pr3{
+    padding: 2em;
+    color: wheat;
+}
+.productos .produc h2{
+    color:wheat;
+}
+.productos .produc h1{
+    color:wheat;
+}
+.productos .produc p{
+    color:wheat;
+}
+#inventario{
+    background: tomato;
+    font-family: 'Indie Flower', cursive;
+    color: black;
+    border: 2px solid;
+    padding: 0.5em 1em;
+    font-size: 1.5em;
+}
+#inventario:hover{
+    border-color: white ;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0.5em 0.5em -0.4em;
+}
+.pr1 .imagen1{
+    width: 15em;
+    height: 15em;
+    border: 4px solid tomato ;
+}
+
+.pr2 .imagen2{
+    width: 15em;
+    height: 15em;
+    border: 4px solid tomato ;
+}
+
+.pr3 .imagen3{
+    width: 15em;
+    height: 15em;
+    border: 4px solid tomato ;
+}
+.productos h1{
+    font-family: 'Indie Flower', cursive;
+}
+.productos h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;   
+}
+.contactos{
+    background: white;
+}
+.contactos h1{
+    padding-left: 2em;
+    font-family: 'Indie Flower', cursive;
+}
+.contactos h2{
+    padding-left: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #58D68D ;
+}
+.copy{
+    padding: 3em 28em;
+    display: flex;
+    align-items: center;
+    color: orangered;
+}
+
+/* @media (min-width: 768px ) {
+    
+}
+@media (max-width: 768px ){
+    
+    
+} */
+@media (max-width: 951px ) {
+    
+    .portada h2{
+        padding-top: 6em;
+        font-size: 25px;
+        
+    }
+    .portada h1{
+        font-size: 50px;
+    }
+    .nosotros{
+        display: block;
+    }
+    .nosotros .nosotros-texto{
+        padding: 0% 10% 10% ;
+    }
+    .nosotros .imagen{
+
+        height: 60%;
+        width: 60%;
+    }
+    .productos{
+        display: block;
+    }
+    .pr1 .imagen1{
+        height: 60%;
+        width: 60%;
+    }
+    
+    .pr2 .imagen2{
+        height: 60%;
+        width: 60%;
+    }
+    
+    .pr3 .imagen3{
+        height: 60%;
+        width: 60%;
+    }
+    .copy{
+        display: block;
+        padding:0% 30% ;
+    }
+}
+@media (min-width: 952px ) and (max-width: 1125px ) {
+    
+    
+    .nosotros{
+        display: block;
+    }
+    .nosotros .nosotros-texto{
+        padding: 0% 10% 10% ;
+    }
+    .nosotros .imagen{
+
+        height: 60%;
+        width: 60%;
+    }
+    .productos{
+        display: block;
+    }
+    .pr1 .imagen1{
+        height: 60%;
+        width: 60%;
+    }
+    
+    .pr2 .imagen2{
+        height: 60%;
+        width: 60%;
+    }
+    
+    .pr3 .imagen3{
+        height: 60%;
+        width: 60%;
+    }
+    .copy{
+        display: block;
+        padding:0% 30%;
+    }
+}
